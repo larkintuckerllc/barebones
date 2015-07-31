@@ -7,5 +7,10 @@
   <p><b><?php the_title(); ?></b><br />
   <i><?php the_time('F j, Y'); ?></i><br /></p>
   <?php the_content(); ?>
+  <?php
+  if (comments_open() || get_comments_number()) :
+    comments_template();
+  endif;
+  ?>
 <?php endwhile; ?>
 <?php get_footer(); ?>
