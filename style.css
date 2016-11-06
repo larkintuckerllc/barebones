@@ -1,3 +1,17 @@
+/*
+Theme Name: Barebones
+Theme URI: http://barebones-wp.blogspot.com/
+Author: John Tucker
+Author URI: http://barebones-wp.blogspot.com/
+Description: Barebones
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: barebones
+Text Domain: barebones
+
+This theme is designed as a starting point for building one's own theme.
+*/
 img.alignleft, img.alignright, img.aligncenter {
   display: block;
   margin-left: auto;
